@@ -1,0 +1,64 @@
+@media (max-width: 320px) {
+  .author {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .coa-stacked {
+    @include sr-only();
+  }
+  .logos .logo {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .nav > li {
+    width: 100%;
+    text-align: center;
+  }
+  header .nav-pills {
+    margin-top: 15px;
+  }
+  .page.search article {
+    .list-inline {
+      display: inline-block;
+      margin-left: 0;
+      li {
+        padding-right: 10px;
+        padding-left: 0;
+        margin-top: 5px;
+        margin-bottom: 0;
+      }
+    }
+    // .post-content {
+    //   margin-bottom: 3em;
+    // }
+  }
+}
+
+
+@media (max-width: 767px) {
+  header form.search {
+    button {
+      top: 3px;
+    }
+  }
+  .small-links li,
+  .powered {
+    text-align: center;
+    width: 100%;
+  }
+  .social {
+    margin: 15px 0;
+  }
+  #search-again {
+    .form-group {
+      input {
+        width: 100%;
+      }
+    }
+  }
+}

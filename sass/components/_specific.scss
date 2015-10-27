@@ -1,0 +1,138 @@
+// adding padding to certain things
+#search-again,
+#posts,
+.comments {
+  // padding: 25px 0;
+  padding: 50px 0;
+}
+
+
+// NOT the homepage
+// sinlge post page
+#post article {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+// sections with coloured bgs
+section.comments,
+#search-again,
+#posts {
+  background: $bgGrey;
+}
+
+
+.tags {
+  margin-bottom: 2em;
+  h3 {
+    margin-bottom: 1em;
+    color: $lightGreyText;
+  }
+  .list-inline {
+    padding-left: 0;
+    .label-default {
+      margin: 0 5px;
+      font-size: 105%;
+    }
+  }
+}
+
+
+
+.comments {
+  h3 {
+    margin-top: 0;
+  }
+  .comment {
+    img {
+      margin-right: 5px;
+    }
+    h4 {
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+
+
+// single page
+.page {
+  #post {
+    article {
+      .author {
+        margin-top: 1em;
+      }
+    }
+  }
+  .tags.text-center {
+    margin-bottom: 60px;
+  }
+}
+
+
+
+//  Search page
+.page.search {
+  article {
+    .list-inline {
+      display: inline;
+      margin-left: 10px;
+    }
+    .post-meta,
+    .post-meta a {
+      color: $lightGreyText;
+    }
+    a.label-default {
+      margin: 0;
+      color: #fff;
+    }
+  }
+  .search-again {
+    margin-top: 1em;
+    button {
+      top: 3px;
+    }
+  }
+}
+#search-again {
+  h1 {
+    margin: 0;
+  }
+  .form-group {
+    margin-bottom: 0;
+    input {
+      width: 23em;
+    }
+  }
+}
+#search-results {
+  article {
+    h2 {
+      margin-top: 0.5em;
+    }
+    .post-content {
+      margin-bottom: 3em;
+    }
+  }
+}
+
+
+#search-results,
+#search-again {
+  margin-bottom: 25px;
+}
+
+
+// flexbox cards
+.flex-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  article {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+}

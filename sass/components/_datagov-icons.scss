@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'datagovau icons';
+    src: url('../fonts/datagov-icons.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/datagov-icons.woff') format('woff'),
+         url('../fonts/datagov-icons.ttf') format('truetype'),
+         url('../fonts/datagov-icons.svg#datagov-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: "datagovau icons";
+    font-size: 50px;
+    font-style: normal;
+}
+
+
+.icon-check:before { content: '\e001'; }
+.icon-close:before { content: '\e003'; }
+.icon-help:before { content: '\e004'; }
+.icon-home:before { content: '\e005'; }
+.icon-lock:before { content: '\e008'; }
+.icon-mail:before { content: '\e00a'; }
+.icon-search:before { content: '\e012'; }
+.icon-twitter:before { content: '\e013'; }
+.icon-rss-square:before { content: '\e014'; }
+.icon-external-link:before { content: '\e016'; }
+.icon-comment:before { content: '\e017'; }
+.icon-angle-left:before { content: '\e018'; }
+.icon-angle-right:before { content: '\e019'; }

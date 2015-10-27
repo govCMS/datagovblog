@@ -1,0 +1,35 @@
+name = Australia.gov.au Bootstrap theme
+description = A lightweight responsive theme based on Bootstrap.
+core = 7.x
+
+settings[breadcrumb_display]= 1
+settings[scrolltop_display]= 1
+settings[responsive_respond]= 1
+settings[bootstrap_css_cdn]= 3.3.5
+; number of columns in each megamenu drop down
+settings[sub_menu_columns] = 4;
+; number of items in homepage carousel
+settings[num_carousel_items] = 8;
+
+scripts[] = javascripts/vendor/bootstrap/bootstrap.min.js
+scripts[] = javascripts/vendor/jquery-ui.min.js
+scripts[] = javascripts/vendor/cssua.min.js
+scripts[] = javascripts/main.js
+
+stylesheets[all][] = stylesheets/styles.css
+stylesheets[all][] = stylesheets/local.css
+stylesheets[all][] = stylesheets/jquery-ui.css
+
+regions[header] = Header
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+; Information added by Drupal.org packaging script on 2015-01-21
+version = "7.x-1.0"
+core = "7.x"
+project = "datagovau_bootstrap"
+datestamp = "1421847784"

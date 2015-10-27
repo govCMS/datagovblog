@@ -1,0 +1,43 @@
+// Create an animated background gradient on an angle
+@mixin background-gradient($colour1,$colour2) {
+  background-color: $colour1;
+  background: linear-gradient(
+    25deg, $colour1, $colour2 );
+  background-size: 400% 400%;
+  -webkit-animation: bg 30s ease infinite;
+  -moz-animation: bg 30s ease infinite;
+  animation: bg 30s ease infinite;
+  @-webkit-keyframes bg {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+  }
+  @-moz-keyframes bg {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+  }
+  @keyframes bg {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+  }
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+// easy way to hide things that still need to be read out
+@mixin sr-only() {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}

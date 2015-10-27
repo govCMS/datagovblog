@@ -1,0 +1,30 @@
+@media print {
+
+    .coa-stacked,
+    .nav,
+    .nav,
+    .leave-comment {
+      display: none;
+    }
+    footer {
+      &, a {
+        color: $brighterBlue !important;
+      }
+      li,
+      .small-links li a,
+      .col-md-4,
+      .powered,
+      .powered span,
+      .powered img {
+        width: 100% !important;
+        color: $brighterBlue !important;
+        text-align: left;
+        float: left !important;
+        display: block;
+      }
+      .powered img {
+        width: 45px !important;
+      }
+    }
+
+}
