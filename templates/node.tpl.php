@@ -20,8 +20,8 @@
 
                 <?php if ($display_submitted): ?>
                   <div class="post-meta text-center">
-                    <?php print $user_picture; ?>
-                    <?php print $submitted; ?>
+                    by <?php print $name; ?>
+                    <?php $ago = format_interval((time() - $created) , 2) . t(' ago'); print $ago; ?>
                     <hr class="small">
                   </div>
                 <?php endif; ?>
