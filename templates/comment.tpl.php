@@ -12,7 +12,7 @@
 
   <h3 class="author">
     <?php print $author; ?>
-    <small><?php $ago = format_interval((time() - $comment->created) , 2) . t(' ago'); print $ago; ?></small>
+    <small><?php print date('j F Y', $comment->created); ?></small>
   </h3>
   <?php if ($status == 'comment-unpublished'): ?>
     <mark class="unpublished"><?php print t('Unpublished'); ?></mark>

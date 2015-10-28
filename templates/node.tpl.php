@@ -21,7 +21,7 @@
                 <?php if ($display_submitted): ?>
                   <div class="post-meta text-center">
                     by <?php print $name; ?>
-                    <?php $ago = format_interval((time() - $created) , 2) . t(' ago'); print $ago; ?>
+                    on <?php print date('j F Y', $created) ?>
                     <hr class="small">
                   </div>
                 <?php endif; ?>
