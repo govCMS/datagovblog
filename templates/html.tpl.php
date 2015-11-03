@@ -72,8 +72,6 @@
 
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,300,700' rel='stylesheet' type='text/css'>
 
-    <meta property="og:image" content="<?php print $GLOBALS['base_url'] . '/' . path_to_theme(); ?>/images/decoration-flag.jpg" />
-    <meta property="og:description" content="Entry point for all Australian Commonwealth Government authorised information and services." />
     <meta property="og:title" content="<?php print $head_title; ?>" />
 
     <?php print $styles; ?>
