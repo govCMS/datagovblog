@@ -88,6 +88,7 @@ a {
 
 
 
+
 h1 {
   line-height: 1.3em;
   font-weight: 500;
@@ -302,9 +303,25 @@ form#siteSearchForm {
 }
 
 
-
+.blog-tiles {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
 // Article stuff
 article {
+  flex-direction: column;
+  display: flex;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   a.thumbnail {
     padding: 15px;
     text-decoration: none;
@@ -567,5 +584,18 @@ footer {
       margin-left: 5px;
       margin-right: 0;
     }
+  }
+}
+#region-content {
+  .view-blogs {
+    .feed-icon {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
+.views-row {
+  article {
+    margin-bottom: 3em;
   }
 }
