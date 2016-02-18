@@ -331,8 +331,8 @@ function datagovau_bootstrap_js_alter(&$javascript) {
 
 function datagovau_bootstrap_html_tag($vars) {
   if ($vars['element']['#tag'] == 'script') {
-    unset($vars['element']['#value_prefix'];
-    unset($vars['element']['#value_suffix'];
+    unset($vars['element']['#value_prefix']);
+    unset($vars['element']['#value_suffix']);
   }
   return theme_html_tag($vars);
 }
