@@ -2,6 +2,9 @@ name = Australia.gov.au Bootstrap theme
 description = A lightweight responsive theme based on Bootstrap.
 core = 7.x
 
+; based off static HTML mockup version:
+; https://github.com/fribibb/blog.data.gov.au
+
 settings[breadcrumb_display]= 1
 settings[scrolltop_display]= 1
 settings[responsive_respond]= 1

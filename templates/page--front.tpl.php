@@ -24,7 +24,6 @@
 
 
           <section id="posts">
-            <div class="container">
 
 
                   <h2 class="sr-only">Latest posts</h2>
@@ -51,7 +50,6 @@
                   <?php endif; ?>
 
 
-            </div>
           </section>
 
     </div>
