@@ -65,7 +65,7 @@
       <div class="col-md-4">
         <ul class="small-links">
           <li>
-            <a href="#">About data.gov.au</a>
+            <a href="https://data.gov.au/about">About data.gov.au</a>
           </li>
         </ul>
       </div>
