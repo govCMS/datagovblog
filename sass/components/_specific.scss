@@ -7,6 +7,12 @@
 }
 
 
+body.front {
+  #block-system-main {
+    display: none;
+  }
+}
+
 // NOT the homepage
 // sinlge post page
 #post article {
@@ -41,6 +47,7 @@ section.comments,
 
 
 .comments {
+  margin-top: 50px;
   h3 {
     margin-top: 0;
   }
@@ -134,5 +141,17 @@ section.comments,
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+  }
+}
+
+
+
+// Firefox specific fix
+html.ua-firefox {
+  form#siteSearchForm {
+    .form-submit {
+      padding: 2px 8px 1px 8px;
+      top: -27px;
+    }
   }
 }
